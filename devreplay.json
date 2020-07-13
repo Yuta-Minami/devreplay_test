@@ -1,0 +1,13 @@
+[
+    {
+        "condition": [
+            "(^\\s{4}(?!public).+:)$"
+        ],
+        "consequent": [
+            "$1;"
+        ],
+        "severity": [
+            "Info"
+        ]
+    }
+]
